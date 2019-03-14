@@ -1,0 +1,7 @@
+Options -Indexes +FollowSymlinks
+php_flag output_buffering On
+DirectoryIndex admin.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* admin.php [L]

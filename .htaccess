@@ -1,0 +1,7 @@
+Options -Indexes +FollowSymlinks
+php_flag output_buffering On
+DirectoryIndex index.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php [L]

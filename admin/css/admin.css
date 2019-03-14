@@ -1,0 +1,67 @@
+.registration p {
+    text-align:center;
+}
+.registration form {
+    width: 25%;
+    margin: auto;
+}
+.top_content {
+    float: right;
+}
+.content {
+    float: left;
+    width: 100%;
+}
+.left_content, .right_content {
+    float: left;
+}
+.left_content {
+    width: 10%;
+    margin-right: 25px;
+}
+.right_content {
+    border-left: 2px solid black;
+    width: 87%;
+    padding-left: 25px;
+}
+.left_content p:first-child {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+#top_link, #bottom_link {
+    float: right;
+}
+.error {
+    color: #f00;
+}
+.right_content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.right_content table tr th, .right_content table tr td {
+    border: 2px solid #000;
+}
+.right_content table tr th:first-child {
+    width: 11%;
+}
+.right_content table tr th:nth-child(2) {
+    width: 10%;
+}
+.right_content table tr th:nth-child(4) {
+    width: 12%;
+}
+.right_content table tr th:last-child {
+    width: 13%;
+}
+.right_content table tr td:first-child, .right_content table tr td:nth-child(2), .right_content table tr td:nth-child(3), .right_content table tr td:nth-child(4), .right_content table tr td:nth-child(5), .right_content table tr td:nth-child(6), .right_content table tr td:nth-child(7), .right_content table tr td:nth-child(8), .right_content table tr td:nth-child(9), .right_content table tr td:nth-child(10), .right_content table tr td:nth-child(11), .right_content table tr td:nth-child(12), .right_content table tr td:nth-child(13), .right_content table tr td:nth-child(14), .right_content table tr td:last-child {
+    text-align: center;
+}
+.right_content table tr td:last-child a:first-child, .right_content table tr td:last-child a:nth-child(2), .right_content table tr td:last-child a:nth-child(3) {
+    margin-right: 20px;
+}
+.link {
+    width: 1002px;
+}
+#cke_1_contents {
+    height: 500px !important;
+}
